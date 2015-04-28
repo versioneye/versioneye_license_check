@@ -59,7 +59,7 @@ Currently VersionEye supports 11 package managers. You can throw any of this pro
  - *.gradle 
  - *.sbt 
  
- For Maven multi module projects (reactor builds) please use the [VersionEye Maven Plugin](https://github.com/versioneye/versioneye_maven_plugin). 
+For Maven multi module projects (reactor builds) please use the [VersionEye Maven Plugin](https://github.com/versioneye/versioneye_maven_plugin). 
  
 ## Feedback 
 
