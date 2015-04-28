@@ -4,7 +4,7 @@ This shell script is build for developers to quickly check on their dev. machine
 
  - [jq](http://stedolan.github.io/jq/), a lightweight and flexible command-line JSON processor. Available for Linux, Mac OS X and Windows. 
  - An API Key from [VersionEye](https://www.versioneye.com/).  
- - A default License Whitelist on VersionEye.
+ - A default License Whitelist on [VersionEye](https://www.versioneye.com/).
 
 Please make sure that you created a License Whitelist on VersionEye and that you marked one as default. The default Whitelist gets assinged automatically to every new created project. 
 
@@ -58,6 +58,8 @@ Currently VersionEye supports 11 package managers. You can throw any of this pro
  - project.clj 
  - *.gradle 
  - *.sbt 
+ 
+ For Maven multi module projects (reactor builds) please use the [VersionEye Maven Plugin](https://github.com/versioneye/versioneye_maven_plugin). 
  
 ## Feedback 
 
